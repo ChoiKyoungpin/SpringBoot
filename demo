@@ -1,1 +1,16 @@
-sample and test
+Spring initializr
+https://start.spring.io/
+세팅하기
+Project Gradle - Groovy
+Language Java
+Spring Boot 3.0.2
+Prject Metadata > Packaging - jar
+Java 17
+------------------------------------------------------------------------------
+어노테이션 안될 시
+build.gradle > 
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+로 수정 후 Gradle 다시 시작 하기
